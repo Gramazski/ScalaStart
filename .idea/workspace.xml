@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="843e9e7c-96fd-4ff7-9388-c0eacd9f6bb8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazs/scalafirst/command/CommandManager.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazs/scalafirst/command/ICommand.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazs/scalafirst/command/commandEnum.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazs/scalafirst/command/impl/LoginCommand.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazs/scalafirst/command/impl/LogoutCommand.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazs/scalafirst/entity/Entity.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazs/scalafirst/entity/impl/User.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazs/scalafirst/service/LoginService.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazs/scalafirst/service/UserService.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/gramazs/scalafirst/controller/ControllerUrlPattern.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/components/message/controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/components/message/messageService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/components/message/view.html" afterPath="" />
+    <list default="true" id="843e9e7c-96fd-4ff7-9388-c0eacd9f6bb8" name="Default" comment="Login added. Controller-&gt;Command-&gt;Service architect realized. Frontend build with angular 1.4.7">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/META-INF/MANIFEST.MF" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/WEB-INF/classes/com/gramazs/scalafirst/controller/ControllerUrlPattern$.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/WEB-INF/classes/com/gramazs/scalafirst/controller/ControllerUrlPattern.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/WEB-INF/classes/com/gramazs/scalafirst/controller/FrontController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/WEB-INF/lib/scala-library-2.12.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/assets/lib/angular-route.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/assets/lib/angular-route.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/assets/lib/angular-route.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/assets/lib/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/assets/lib/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/assets/lib/angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/components/home/controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/components/home/view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/components/login/controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/components/login/loginService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/components/login/view.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/components/message/controller.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/components/message/messageService.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/components/message/view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/shared/menu/controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/shared/menu/logoutService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ScalaStart/shared/menu/view.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gramazs/scalafirst/controller/ControllerUrlPattern$.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gramazs/scalafirst/controller/ControllerUrlPattern.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ScalaStart.war" afterPath="$PROJECT_DIR$/target/ScalaStart.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ScalaStart/WEB-INF/classes/com/gramazs/scalafirst/controller/FrontController.class" afterPath="$PROJECT_DIR$/target/ScalaStart/WEB-INF/classes/com/gramazs/scalafirst/controller/FrontController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gramazs/scalafirst/controller/FrontController.class" afterPath="$PROJECT_DIR$/target/classes/com/gramazs/scalafirst/controller/FrontController.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gramazs/scalafirst/controller/FrontController.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/gramazs/scalafirst/controller/FrontController.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazs/scalafirst/controller/FrontController.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app.js" afterPath="$PROJECT_DIR$/src/main/webapp/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/shared/menu/view.html" afterPath="$PROJECT_DIR$/src/main/webapp/shared/menu/view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ScalaStart/app.js" afterPath="$PROJECT_DIR$/target/ScalaStart/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ScalaStart/shared/menu/view.html" afterPath="$PROJECT_DIR$/target/ScalaStart/shared/menu/view.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -706,6 +707,116 @@
       <recent name="C:\Users\gs\Documents\GitHub\ScalaStart\src\main\webapp" />
     </key>
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitignore</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -911,14 +1022,21 @@
       <updated>1497010457997</updated>
       <workItem from="1497010465415" duration="5841000" />
     </task>
+    <task id="LOCAL-00001" summary="Login added. Controller-&gt;Command-&gt;Service architect realized. Frontend build with angular 1.4.7">
+      <created>1497024550791</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1497024550791</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11319000" />
+    <option name="totallyTimeSpent" value="11646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -942,7 +1060,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.4956076" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -959,6 +1077,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Login added. Controller-&gt;Command-&gt;Service architect realized. Frontend build with angular 1.4.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login added. Controller-&gt;Command-&gt;Service architect realized. Frontend build with angular 1.4.7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
