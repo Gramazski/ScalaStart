@@ -12,11 +12,6 @@ angular.module('webApp', ["ngRoute"]).config(function ($routeProvider) {
             templateUrl: 'components/login/view.html',
             controller: 'loginController'
         });
-    $routeProvider.when('/messages',
-        {
-            templateUrl: 'components/message/view.html',
-            controller: 'messageController'
-        });
 
     $routeProvider.otherwise({redirectTo: '/'});
 
