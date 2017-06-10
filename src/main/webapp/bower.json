@@ -1,0 +1,9 @@
+{
+  "name": "scala-start",
+  "version": "0.1.0",
+  "dependencies": {
+    "angular": "1.4.7",
+    "angular-route": "1.4.7"
+  },
+  "private": true
+}
