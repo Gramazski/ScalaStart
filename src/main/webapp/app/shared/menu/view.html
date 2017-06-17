@@ -1,0 +1,8 @@
+<nav class="navbar navbar-inverse" id="menuNav" ng-controller="menuController">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li class="site-menu" ng-show="!loggedInUser"><a href="#/login">Login</a></li>
+            <li class="site-menu" ng-show="loggedInUser"><a ng-click="logoutUser()">Logout</a></li>
+        </ul>
+    </div>
+</nav>
