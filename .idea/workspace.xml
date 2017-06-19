@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="843e9e7c-96fd-4ff7-9388-c0eacd9f6bb8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/AppMainScala.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/AppMainScala.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/ScalaStreamTextDivider.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/ScalaStreamTextDivider.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StandartTextDivider.java" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StandartTextDivider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StreamTextDivider.java" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StreamTextDivider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/stream/test.txt" afterPath="$PROJECT_DIR$/src/main/resources/stream/test.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/stream/test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,7 +113,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppMainScala.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppMainScala.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/gramazski/stream/AppMainScala.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -191,12 +188,12 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/scalaconstructors/example/ComplexConstructor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/standart/TextDivider.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/standart/StandartTextDivider.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/stream/test.txt" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/AppMain.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StreamTextDivider.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StandartTextDivider.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/ScalaStreamTextDivider.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/AppMainScala.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/stream/test.txt" />
       </list>
     </option>
   </component>
@@ -503,6 +500,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stream" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1253,7 +1254,7 @@
       <workItem from="1497514761334" duration="3044000" />
       <workItem from="1497524356704" duration="825000" />
       <workItem from="1497713087458" duration="2517000" />
-      <workItem from="1497864768559" duration="7345000" />
+      <workItem from="1497864768559" duration="7543000" />
     </task>
     <task id="LOCAL-00001" summary="Login added. Controller-&gt;Command-&gt;Service architect realized. Frontend build with angular 1.4.7">
       <created>1497024550791</created>
@@ -1297,11 +1298,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497870716990</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Punctuation and word case support added.">
+      <created>1497872278148</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1497872278148</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48497000" />
+    <option name="totallyTimeSpent" value="48695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
@@ -1356,7 +1364,8 @@
     <MESSAGE value="Constructor task added." />
     <MESSAGE value="Inheritance added." />
     <MESSAGE value="Stream task added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream task added." />
+    <MESSAGE value="Punctuation and word case support added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Punctuation and word case support added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1666,14 +1675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/stream/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/gramazski/scalaconstructors/MainApp.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1724,6 +1725,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/stream/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
