@@ -7,7 +7,8 @@ import scala.io.Source
 
 class ScalaStreamTextDivider {
   def divideTextFromFile(filePath: String): Map[String, Int] = {
-    val wordMap: Map[String, Int] = Source.fromFile(filePath).mkString.split("\\s+").groupBy(identity).mapValues(_.length)
+    val syntaxRegex = "\\p{Punct}"
+    val wordMap: Map[String, Int] = Source.fromFile(filePath).mkString.replaceAll(syntaxRegex, " ").toUpperCase().split("\\s+").groupBy(identity).mapValues(_.length)
 
     wordMap
   }

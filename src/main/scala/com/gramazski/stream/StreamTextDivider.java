@@ -13,9 +13,11 @@ import static java.util.stream.Collectors.groupingBy;
 
 public class StreamTextDivider {
     public Map<String, Long> divideTextFromFile(String filePath){
+        String syntaxRegex = "\\p{Punct}";
         Map<String, Long> wordMap = new HashMap<>();
         try {
             wordMap = Files.lines(Paths.get(filePath))
+                    .map(line -> line.replaceAll(syntaxRegex, " ").toUpperCase())
                     .map(line -> line.split("\\s+"))
                     .flatMap(Arrays::stream)
                     .collect(groupingBy(identity(), counting()));
