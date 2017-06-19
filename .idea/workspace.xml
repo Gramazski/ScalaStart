@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="843e9e7c-96fd-4ff7-9388-c0eacd9f6bb8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/stream/test.txt" afterPath="$PROJECT_DIR$/src/main/resources/stream/test.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/AppMain.java" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/AppMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/ScalaStreamTextDivider.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/ScalaStreamTextDivider.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StandartTextDivider.java" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StandartTextDivider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StreamTextDivider.java" afterPath="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StreamTextDivider.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,8 +63,8 @@
       <file leaf-file-name="StandartTextDivider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StandartTextDivider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="187">
+              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="12" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +75,8 @@
       <file leaf-file-name="StreamTextDivider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StreamTextDivider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="178">
+              <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/stream/test.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -91,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppMain.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AppMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/gramazski/stream/AppMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="85" lean-forward="false" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
+            <state relative-caret-position="136">
+              <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -104,11 +107,9 @@
       <file leaf-file-name="ScalaStreamTextDivider.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/gramazski/stream/ScalaStreamTextDivider.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-              <folding>
-                <element signature="e#30#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -188,12 +189,12 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/scalaconstructors/example/ComplexConstructor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/standart/TextDivider.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/standart/StandartTextDivider.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/AppMain.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StreamTextDivider.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StandartTextDivider.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/ScalaStreamTextDivider.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/AppMainScala.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/stream/test.txt" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StandartTextDivider.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StreamTextDivider.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/ScalaStreamTextDivider.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gramazski/stream/AppMain.java" />
       </list>
     </option>
   </component>
@@ -604,7 +605,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AppMainScala">
+  <component name="RunManager" selected="Application.AppMain">
     <configuration default="false" name="default" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -1225,8 +1226,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AppMainScala" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AppMain" />
+        <item index="0" class="java.lang.String" itemvalue="Application.AppMain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AppMainScala" />
         <item index="2" class="java.lang.String" itemvalue="Application.MainApp" />
         <item index="3" class="java.lang.String" itemvalue="Gulp.js.default" />
         <item index="4" class="java.lang.String" itemvalue="Gulp.js.default-build" />
@@ -1254,7 +1255,7 @@
       <workItem from="1497514761334" duration="3044000" />
       <workItem from="1497524356704" duration="825000" />
       <workItem from="1497713087458" duration="2517000" />
-      <workItem from="1497864768559" duration="7543000" />
+      <workItem from="1497864768559" duration="8022000" />
     </task>
     <task id="LOCAL-00001" summary="Login added. Controller-&gt;Command-&gt;Service architect realized. Frontend build with angular 1.4.7">
       <created>1497024550791</created>
@@ -1305,11 +1306,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497872278148</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Text test example added.">
+      <created>1497872405601</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1497872405601</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48695000" />
+    <option name="totallyTimeSpent" value="49174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
@@ -1365,11 +1373,20 @@
     <MESSAGE value="Inheritance added." />
     <MESSAGE value="Stream task added." />
     <MESSAGE value="Punctuation and word case support added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Punctuation and word case support added." />
+    <MESSAGE value="Text test example added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Text test example added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/gramazski/stream/AppMain.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1683,18 +1700,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gramazski/stream/AppMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/stream/test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="85" lean-forward="false" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StandartTextDivider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="187">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="12" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1703,8 +1720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/gramazski/stream/StreamTextDivider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="178">
+          <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1713,11 +1730,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/gramazski/stream/ScalaStreamTextDivider.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#30#56#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1729,10 +1744,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/stream/test.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gramazski/stream/AppMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
           <folding />
         </state>
       </provider>

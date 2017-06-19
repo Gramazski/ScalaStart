@@ -13,12 +13,13 @@ import static java.util.stream.Collectors.groupingBy;
 
 public class StreamTextDivider {
     public Map<String, Long> divideTextFromFile(String filePath){
-        String syntaxRegex = "\\p{Punct}";
+        String punctRegex = "\\p{Punct}";
+        String spaceRegex = "\\s+";
         Map<String, Long> wordMap = new HashMap<>();
         try {
             wordMap = Files.lines(Paths.get(filePath))
-                    .map(line -> line.replaceAll(syntaxRegex, " ").toUpperCase())
-                    .map(line -> line.split("\\s+"))
+                    .map(line -> line.replaceAll(punctRegex, " ").toUpperCase())
+                    .map(line -> line.split(spaceRegex))
                     .flatMap(Arrays::stream)
                     .collect(groupingBy(identity(), counting()));
         } catch (IOException e) {

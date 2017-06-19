@@ -6,8 +6,8 @@ public class AppMain {
         StreamTextDivider streamTextDivider = new StreamTextDivider();
 
         standartTextDivider.divideTextFromFile("src/main/resources/stream/test.txt")
-                .forEach((k,v)->System.out.println("Item : " + k + " Count : " + v));
+                .forEach((k,v)->System.out.println(k + "=" + v));
         streamTextDivider.divideTextFromFile("src/main/resources/stream/test.txt")
-                .forEach((k,v)->System.out.println("Item : " + k + " Count : " + v));
+                .forEach((k,v)->System.out.println(k + "=" + v));
     }
 }
