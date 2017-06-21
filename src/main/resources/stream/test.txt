@@ -1,2 +1,8 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel lectus venenatis, eleifend ante et, mattis eros. Vestibulum ex velit, cursus ac metus vitae, sodales efficitur mauris. Quisque viverra eros quis velit congue fermentum. Nullam mattis rhoncus lectus ac pretium. Curabitur ut ante lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse risus tellus, fringilla eget ullamcorper id, fringilla sed magna. Morbi tempus, velit id rutrum interdum, massa orci dapibus leo, faucibus sollicitudin dui justo vitae nisl. Nunc vestibulum dapibus mollis. Vivamus ut nunc dignissim, egestas ipsum id, tristique dolor. Morbi convallis odio erat, non ultrices arcu convallis vitae. Vivamus vitae sem tristique, semper lacus ac, porttitor magna. Proin tristique tempor dolor, quis bibendum nunc condimentum sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat nunc libero, quis malesuada nisi pulvinar nec. Nulla nec lacus eu felis facilisis euismod.
-Mauris est neque, tristique ac mi at, iaculis malesuada justo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris metus ex, varius eu rutrum ac, iaculis eu leo. Donec hendrerit sem urna, non mollis arcu placerat non. Proin at mauris velit. Ut ac nunc dictum ipsum ultricies dignissim. Sed vehicula dapibus sem, quis euismod elit semper ac. Aliquam erat volutpat. Etiam sed lorem quis mauris vestibulum congue quis in eros. Aliquam lacinia ac sapien non venenatis. In pellentesque vel elit quis sodales. Donec semper rhoncus nisl sit amet dapibus. Nunc vulputate lorem a sapien malesuada, id consectetur nibh tristique.
+ввода  Java содержит стандартные потоки ввода:
+ следует Java     следует:  Java: стандартные потоков
+ с с с      с    класса PrintWriter.
+
+
+
+
+ следует следует:

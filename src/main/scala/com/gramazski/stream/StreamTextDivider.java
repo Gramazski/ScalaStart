@@ -18,7 +18,8 @@ public class StreamTextDivider {
         Map<String, Long> wordMap = new HashMap<>();
         try {
             wordMap = Files.lines(Paths.get(filePath))
-                    .map(line -> line.replaceAll(punctRegex, " ").toUpperCase())
+                    .filter(line -> !line.isEmpty())
+                    .map(line -> line.replaceAll(punctRegex, " ").trim().toUpperCase())
                     .map(line -> line.split(spaceRegex))
                     .flatMap(Arrays::stream)
                     .collect(groupingBy(identity(), counting()));

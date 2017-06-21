@@ -16,8 +16,10 @@ public class StandartTextDivider {
             String sCurrentLine;
 
             while ((sCurrentLine = br.readLine()) != null) {
-                String[] wordsInLine = sCurrentLine.replaceAll(punctRegex, " ").toUpperCase().split(spaceRegex);
-                addWordsToMap(wordsInLine, wordMap);
+                if (!sCurrentLine.isEmpty()){
+                    String[] wordsInLine = sCurrentLine.replaceAll(punctRegex, " ").trim().toUpperCase().split(spaceRegex);
+                    addWordsToMap(wordsInLine, wordMap);
+                }
             }
 
         } catch (IOException e) {
